@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos - SyA</title>
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Nuestros Productos - SyA</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">SyA</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <main class="catalog-container">
+        <h1 class="main-title">Nuestros Productos</h1>
+        
+        <div id="contenedor-productos" class="productos-grid">
+            </div>
+    </main>
 
-    <h1>Nuestros Productos</h1>
-
-    <div class="catalogo" id="catalogo"></div>
-
-    <!-- Primero cargamos los DATOS, después el script que los usa -->
     <script src="js/data-productos.js"></script>
     <script src="js/productos.js"></script>
 </body>

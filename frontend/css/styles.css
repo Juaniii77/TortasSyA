@@ -317,3 +317,58 @@ h1 {
     max-height: 90%;
     border-radius: 8px;
 }
+
+/* --- Pantalla de Bienvenida (index.html) --- */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fcf4e9; /* El color crema de tu fondo */
+    padding: 20px;
+}
+
+.welcome-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh; /* Para que no desborde en pantallas chicas */
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.btn-ingresar {
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5a3825; /* Marrón oscuro para las letras */
+    background-color: #fcdcb6; /* Color similar al fondo del logo (naranja pastel) */
+    border: 2px solid #5a3825;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Efecto sutil al pasar el mouse por encima */
+.btn-ingresar:hover {
+    background-color: #5a3825;
+    color: #fcdcb6;
+    transform: scale(1.05);
+}
+
+/* --- Estilos para el Catálogo (productos.html) --- */
+.catalog-container {
+    background-color: #fcf4e9;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #c97d42; /* El color marrón/anaranjado de tus títulos */
+    margin-bottom: 40px;
+}
+

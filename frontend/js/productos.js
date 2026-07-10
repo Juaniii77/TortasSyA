@@ -1,4 +1,4 @@
-const contenedorCatalogo = document.getElementById("catalogo");
+const contenedorCatalogo = document.getElementById("contenedor-productos");
 
 function renderizarCatalogo() {
     productos.forEach(function (producto) {
