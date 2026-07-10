@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos - SyA</title>
+    <title>Producto - SyA</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -18,12 +18,16 @@
         </ul>
     </nav>
 
-    <h1>Nuestros Productos</h1>
+    <div class="producto-detalle" id="producto-detalle">
+        <!-- Todo esto lo va a llenar JavaScript -->
+    </div>
 
-    <div class="catalogo" id="catalogo"></div>
+    <!-- Overlay de zoom, arranca oculto -->
+    <div class="zoom-overlay" id="zoom-overlay">
+        <img id="zoom-imagen" src="" alt="Zoom">
+    </div>
 
-    <!-- Primero cargamos los DATOS, después el script que los usa -->
     <script src="js/data-productos.js"></script>
-    <script src="js/productos.js"></script>
+    <script src="js/producto.js"></script>
 </body>
 </html>
