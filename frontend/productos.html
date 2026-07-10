@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos - SyA</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">SyA</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1>Nuestros Productos</h1>
+
+    <div class="catalogo">
+
+        <div class="card">
+            <img src="img/torta.jpg" alt="Torta">
+            <h3>Torta de Chocolate</h3>
+            <p>$8000</p>
+            <button onclick="agregarAlCarrito('Torta de Chocolate', 8000)">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="img/budines.jpg" alt="Budín">
+            <h3>Budín de Naranja</h3>
+            <p>$3500</p>
+            <button onclick="agregarAlCarrito('Budín de Naranja', 3500)">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="img/alfajores_maicena.jpg" alt="Alfajor de maicena">
+            <h3>Alfajor de Maicena</h3>
+            <p>$1200</p>
+            <button onclick="agregarAlCarrito('Alfajor de Maicena', 1200)">Agregar al carrito</button>
+        </div>
+
+    </div>
+
+    <script src="js/productos.js"></script>
+</body>
+</html>
