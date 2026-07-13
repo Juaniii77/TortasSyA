@@ -4,7 +4,7 @@ const productos = [
         nombre: "Torta de Chocolate",
         categoria: "Tortas",
         precio: 8000,
-        imagen: "img/torta.jpg",
+        imagen: "img/torta.png",
         descripcion: "Torta húmeda de chocolate con relleno de dulce de leche y cobertura de ganache.",
         ingredientes: ["Chocolate semiamargo", "Dulce de leche", "Harina", "Huevos", "Manteca"]
     },
@@ -13,7 +13,7 @@ const productos = [
         nombre: "Budín de Naranja",
         categoria: "Budines",
         precio: 3500,
-        imagen: "img/budines.jpg",
+        imagen: "img/budines.png",
         descripcion: "Budín esponjoso con ralladura de naranja y glaseado cítrico.",
         ingredientes: ["Naranja", "Harina", "Huevos", "Azúcar", "Manteca"]
     },
@@ -22,7 +22,7 @@ const productos = [
         nombre: "Alfajor de Maicena",
         categoria: "Alfajores",
         precio: 1200,
-        imagen: "img/alfajores_maicena.jpg",
+        imagen: "img/alfajores_maicena.png",
         descripcion: "Alfajor tradicional de maicena relleno de dulce de leche y coco rallado.",
         ingredientes: ["Maicena", "Dulce de leche", "Coco rallado", "Manteca"]
     }
