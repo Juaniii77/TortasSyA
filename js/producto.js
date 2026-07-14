@@ -38,7 +38,6 @@ if (!producto) {
             <div class="detalle-info">
                 <span class="categoria">${producto.categoria}</span>
                 <h1>${producto.nombre}</h1>
-                <p class="precio">$${producto.precio}</p>
                 <p class="descripcion">${producto.descripcion}</p>
 
                 <h3>¿Qué lleva?</h3>
@@ -46,9 +45,14 @@ if (!producto) {
                     ${listaIngredientes}
                 </ul>
 
-                <a href="https://wa.me/549358000000?text=${mensajeWhatsapp}" target="_blank" class="btn-whatsapp">
-                     Consultar por WhatsApp
-                </a>
+                <div class="contacto-wa-botones">
+                    <a href="https://wa.me/5492302637190?text=${mensajeWhatsapp}" target="_blank" class="btn-whatsapp-analia">
+                        Consultar con Analia
+                    </a>
+                    <a href="https://wa.me/5492302313452?text=${mensajeWhatsapp}" target="_blank" class="btn-whatsapp-sandra">
+                        Consultar con Sandra
+                    </a>
+                </div>
             </div>
         </div>
     `;

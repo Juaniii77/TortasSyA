@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyA - Contacto</title>
+    <title>Contacto - SyA Cosas Dulces</title>
+    <meta name="description" content="Contactanos por WhatsApp. SyA Cosas Dulces, Huinca Renancó, Córdoba. Repostería artesanal.">
+    <meta property="og:title" content="Contacto - SyA Cosas Dulces">
+    <meta property="og:description" content="Escribinos por WhatsApp para hacer tu pedido.">
+    <meta property="og:image" content="img/logo.jpg">
     <link rel="icon" type="image/jpeg" href="img/logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,53 +16,128 @@
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">SyA</div>
+    <nav class="navbar">
+        <a href="index.html" class="logo">SyA</a>
         <ul class="nav-links">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="productos.html">Productos</a></li>
-            <li><a href="contacto.html" style="text-decoration: underline;">Contacto</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
-    </header>
+    </nav>
 
     <main class="contacto-container">
-        <h2>Ponete en contacto con nosotros</h2>
-        <p class="subtitulo">¿Tenés un evento o querés hacer un pedido especial? ¡Escribinos!</p>
+        <h2>¿Hablamos?</h2>
+        <p class="subtitulo">Escribinos por WhatsApp y te respondemos a la brevedad</p>
 
-        <div class="contacto-grid">
-            <section class="form-seccion">
-                <form id="form-contacto">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" required placeholder="Tu nombre">
-                    
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" required placeholder="tu@email.com">
-                    
-                    <label for="mensaje">Mensaje o Pedido:</label>
-                    <textarea id="mensaje" rows="5" required placeholder="Contanos qué te gustaría pedir..."></textarea>
-                    
-                    <button type="submit">Enviar Mensaje</button>
-                </form>
-            </section>
+        <div class="contacto-wa-grid">
+            <div class="contacto-wa-card fade-in">
+                <span class="contacto-wa-icono">🎂</span>
+                <h3>Pedido especial</h3>
+                <p>¿Querés una torta personalizada o algo único?</p>
+                <div class="contacto-wa-botones">
+                    <a href="https://wa.me/5492302637190?text=Hola!%20Quiero%20hacer%20un%20pedido%20especial%20de..." target="_blank" class="btn-whatsapp-analia">Analia</a>
+                    <a href="https://wa.me/5492302313452?text=Hola!%20Quiero%20hacer%20un%20pedido%20especial%20de..." target="_blank" class="btn-whatsapp-sandra">Sandra</a>
+                </div>
+            </div>
 
-            <section class="info-seccion">
-                <h3>Información de Contacto</h3>
-                <ul>
-                    <li>📍 <strong>Ubicación:</strong> Huinca Renancó, Córdoba</li>
-                    <li>⏰ <strong>Horarios:</strong> Lun a Sáb: 9:00 a 20:00 hs</li>
-                </ul>
-                
-                <a href="https://wa.me/549358000000" target="_blank" class="btn-whatsapp">
-                    💬 Contactanos por WhatsApp
-                </a>
+            <div class="contacto-wa-card fade-in">
+                <span class="contacto-wa-icono">💬</span>
+                <h3>Consulta general</h3>
+                <p>¿Tenés alguna duda? Consultanos sin compromiso</p>
+                <div class="contacto-wa-botones">
+                    <a href="https://wa.me/5492302637190?text=Hola!%20Quiero%20hacer%20una%20consulta." target="_blank" class="btn-whatsapp-analia">Analia</a>
+                    <a href="https://wa.me/5492302313452?text=Hola!%20Quiero%20hacer%20una%20consulta." target="_blank" class="btn-whatsapp-sandra">Sandra</a>
+                </div>
+            </div>
 
-                <a href="https://www.instagram.com/sya.cosasdulces/" target="_blank" class="btn-instagram">
-                    📸 Seguinos en Instagram
-                </a>
-            </section>
+            <div class="contacto-wa-card fade-in">
+                <span class="contacto-wa-icono">🎉</span>
+                <h3>Evento o fiesta</h3>
+                <p>Casos, cumpleaños, bautismos... ¡te ayudamos!</p>
+                <div class="contacto-wa-botones">
+                    <a href="https://wa.me/5492302637190?text=Hola!%20Necesito%20tortas%20para%20un%20evento." target="_blank" class="btn-whatsapp-analia">Analia</a>
+                    <a href="https://wa.me/5492302313452?text=Hola!%20Necesito%20tortas%20para%20un%20evento." target="_blank" class="btn-whatsapp-sandra">Sandra</a>
+                </div>
+            </div>
         </div>
+
+        <div class="contacto-info-grid fade-in">
+            <div class="contacto-info-card">
+                <span class="contacto-info-icono">📍</span>
+                <h3>Ubicación</h3>
+                <p>Austria 258, Huinca Renancó, Córdoba</p>
+            </div>
+            <div class="contacto-info-card">
+                <span class="contacto-info-icono">⏰</span>
+                <h3>Horarios</h3>
+                <p>Lun a Sáb: 9:00 a 20:00 hs</p>
+            </div>
+            <a href="https://www.instagram.com/sya.cosasdulces/" target="_blank" class="contacto-info-card contacto-info-link">
+                <span class="contacto-info-icono">📸</span>
+                <h3>Instagram</h3>
+                <p>Seguinos @sya.cosasdulces</p>
+            </a>
+        </div>
+
+        <section class="faq-section fade-in">
+            <h2 class="seccion-titulo">Preguntas Frecuentes</h2>
+
+            <div class="faq-item">
+                <button class="faq-pregunta" aria-expanded="false">
+                    <span>¿Cuánto aviso para un pedido especial?</span>
+                    <span class="faq-flecha">+</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Te recomendamos avisar con al menos 48 horas de anticipación. Para eventos grandes, con una semana de antelación es ideal.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta" aria-expanded="false">
+                    <span>¿Hacen envíos?</span>
+                    <span class="faq-flecha">+</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>No hacemos envios, se retira en Austria 258.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta" aria-expanded="false">
+                    <span>¿Se puede personalizar una torta?</span>
+                    <span class="faq-flecha">+</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>¡Sí! Contanos qué tenés en mente y lo hacemos realidad. Mandanos una imagen de referencia por WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta" aria-expanded="false">
+                    <span>¿Tienen opciones sin gluten?</span>
+                    <span class="faq-flecha">+</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Por el momento no, pero en un futuro quizas.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta" aria-expanded="false">
+                    <span>¿Cuáles son las formas de pago?</span>
+                    <span class="faq-flecha">+</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Aceptamos efectivo y transferencia bancaria. Consultanos por otras opciones.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
+
+
     <script defer src="js/contacto.js"></script>
+    <script defer src="js/scroll-animations.js"></script>
+    <script defer src="js/faq.js"></script>
 </body>
 </html>
